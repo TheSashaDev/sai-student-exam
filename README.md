@@ -1,31 +1,49 @@
 # SAI Student Exam
 
-Static web application for running a student/candidate quiz with a dark UI, question data, and client-side logic.
+## English
+A browser-based student exam/quiz application.
 
-## Features
+### Features
+- Student information form.
+- Client-side quiz flow.
+- Question data separated into JavaScript.
 
-- Student name / Discord username form
-- Quiz flow with JavaScript
-- Dark/light UI styling
-- Question data stored in `quiz-data.js`
-- Optional Gemini API helper module
+### Screenshots
+![Screenshot 1](docs/screenshots/01-start.png)
+![Screenshot 2](docs/screenshots/02-question.png)
+![Screenshot 3](docs/screenshots/03-results.png)
 
-## Run locally
+### Run locally
+Use any static file server and open the project in a browser. Example: Python built-in HTTP server on port 8000.
 
-Open `index.html` in a browser or serve the folder:
+## Русский
+Браузерное приложение для экзамена/теста студентов.
 
-```bash
-python3 -m http.server 8000
-```
+### Возможности
+- Student information form.
+- Client-side quiz flow.
+- Question data separated into JavaScript.
 
-Then open `http://localhost:8000`.
+### Скриншоты
+![Screenshot 1](docs/screenshots/01-start.png)
+![Screenshot 2](docs/screenshots/02-question.png)
+![Screenshot 3](docs/screenshots/03-results.png)
 
-## Files
+### Локальный запуск
+Запусти любой статический HTTP-сервер и открой проект в браузере. Например, встроенный Python HTTP server на порту 8000.
 
-```text
-index.html
-script.js
-style.css
-quiz-data.js
-gemini-api.js
-```
+## Українська
+Браузерний застосунок для іспиту/тесту студентів.
+
+### Можливості
+- Student information form.
+- Client-side quiz flow.
+- Question data separated into JavaScript.
+
+### Скріншоти
+![Screenshot 1](docs/screenshots/01-start.png)
+![Screenshot 2](docs/screenshots/02-question.png)
+![Screenshot 3](docs/screenshots/03-results.png)
+
+### Локальний запуск
+Запусти будь-який статичний HTTP-сервер і відкрий проєкт у браузері. Наприклад, вбудований Python HTTP server на порту 8000.
